@@ -1,0 +1,43 @@
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.question{
+    background:white;
+    padding: 8px;
+    border: 2px double rgba(17, 84, 162, 1) ;
+    color:  #4d5866;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.answers{
+    padding-top: 5px;
+    border-style: none none ridge none;
+    border-color: rgba(17, 84, 162, 1) ;
+    border-top: 0px;
+}
+
+
+.results{
+    color:rgba(0, 0, 0, 0.95);
+    display: flex;
+    justify-content: space-around;
+}
